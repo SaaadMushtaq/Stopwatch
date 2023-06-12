@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            <div id="timer">    
+                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>.<span id="milliseconds">0</span><span id="sMilliseconds">00</span>
+            </div>
+            <div id="lastClick">
+                 <span>SPLIT TIME</span>
+            </div>
+        <div class="buttons">
+            <button id="startTimer" style="background-color: #18A69D; color: white; border: 2px solid #1b847d;">Start</button>
+            <button id="splitTimer" >Split</button>
+            <button id="resetTimer">Reset</button>
+        </div>
+        </div>
+        <div id="logTable">
+            <table>
+                <tbody id="table">
+                    <tr>
+                      <!--  <td style="margin-right: 20px !important;" id="counting"></td>
+                        <td style="margin-right: 50px !important;" id="timing"></td>
+                        <td style="margin-right: 10px !important;" id="typing"></td>-->
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
